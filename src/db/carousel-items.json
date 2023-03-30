@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "title": "Notebooks",
+            "description": "As melhores máquinas do mercado para trabalho, estudos e lazer",
+            "iconUrl": "/notebooks.png",
+            "alt": "Ícone de um notebook",
+            "color": "tw-text-green-dark"
+        },
+        {
+            "id": 2,
+            "title": "Memória e Armazenamento",
+            "description": "Tenha todo o espaço do mundo com HD's e SSD's de qualidade",
+            "iconUrl": "/cloud.png",
+            "alt": "Ícone de atualização",
+            "color": "tw-text-yellow-dark"
+        },
+        {
+            "id": 3,
+            "title": "Acessórios",
+            "description": "Encontre os melhores periféricos para dar um boost no setup gamer",
+            "iconUrl": "/headset.png",
+            "alt": "Ícone de livro",
+            "color": "tw-text-red"
+        }
+    ]
+}
