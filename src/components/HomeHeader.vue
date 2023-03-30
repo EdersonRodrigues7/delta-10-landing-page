@@ -3,11 +3,6 @@
 </script>
 <template>
     <header id="header">
-        <!-- <div class="d-flex align-items-center justify-content-center">
-            <span class="brand-name">DELT</span>
-            <img alt="Delta 10 Logo" class="logo" src="../assets/brand-triangle.png" width="40" height="35" />
-            <span class="brand-name">10</span>
-        </div> -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div id="nav-container" class="container-fluid d-flex align-items-center">
                 <a id="header-brand" class="navbar-brand d-flex align-items-center justify-content-center" href="#">
@@ -43,10 +38,6 @@
         background-color: var(--color-background);
         box-shadow: 0px 8px 8px hsla(24,88%,50%, 0.5);
         margin-bottom: 2rem;
-        /* padding: 0 1rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center; */
     }
     a#header-brand{
         background-color: var(--color-background);
