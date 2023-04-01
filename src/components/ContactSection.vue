@@ -6,7 +6,7 @@
         <h1 class="text-center mb-4">Entre em contato!</h1>
         <ul class="contact-list">
             <li><a href="https://api.whatsapp.com/send?phone=5519982439477" target="_blank"><i class="fa-brands fa-whatsapp me-2"></i>WhatsApp</a></li>
-            <li><a href="mailto:exemplo@delta10.com.br" target="_blank"><i class="fa-solid fa-at me-2"></i> E-mail</a></li>
+            <li><a href="mailto:delta10@outlook.pt" target="_blank"><i class="fa-solid fa-at me-2"></i> E-mail</a></li>
             <li><a href="https://instagram.com/delta_dez" target="_blank"><i class="fa-brands fa-instagram me-2"></i>Instagram</a></li>
         </ul>
     </div>

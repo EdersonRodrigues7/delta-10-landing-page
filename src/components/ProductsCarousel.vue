@@ -3,7 +3,7 @@
     id="carousel-wrapper"
     class="carousel slide my-4"
     data-bs-ride="carousel"
-    data-interval="2000"
+    data-interval="1200"
 >
     <div class="carousel-inner mx-auto max-w-sm">
     <template v-for="item of items" :key="item.id">
@@ -71,5 +71,12 @@ beforeMount() {
 .product-img{
     width: 50%;
     margin-bottom: 1.5rem;
+}
+
+@media(min-width: 1024px){
+.product-img{
+    width: 25%;
+    margin-bottom: 1.5rem;
+}
 }
 </style>
