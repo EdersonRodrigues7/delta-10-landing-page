@@ -1,13 +1,13 @@
 <script lang="ts">
 import { api } from '@/api';
 import Swal from 'sweetalert2';
-
+//Delta10 Informática <delta10@outlook.pt>
 export default{
     data() {
         return {
             categories: ["Acessórios", "Automação", "Computadores", "Imagem", "Infraestrutura", "Print Solutions"],
             form: {
-                destination: 'Delta10 Informática <delta10@outlook.pt>',
+                destination: 'Ederson Rodrigues <ederson.rodrigues777@gmail.com>',
                 name: '',
                 email: '',
                 product: '',
