@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const api = axios.create({
-    baseURL: "https://mail-api-gamma.vercel.app"
+    baseURL: "https://mail-service-api.vercel.app"
   });

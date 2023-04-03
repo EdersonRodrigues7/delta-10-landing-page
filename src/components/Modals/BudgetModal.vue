@@ -24,7 +24,7 @@ export default{
         },
         async submit(event: any) {
             console.log(event);
-            await api.post('/request-budget', this.form)
+            await api.post('/budget', this.form)
                 .then(res => {
                     this.resetForm();
                     Swal.fire(
