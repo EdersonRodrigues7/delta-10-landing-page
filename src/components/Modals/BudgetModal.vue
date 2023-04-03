@@ -23,23 +23,42 @@ export default{
             return false;
         },
         async submit(event: any) {
-            console.log(event);
-            await api.post('/budget', this.form)
-                .then(res => {
-                    this.resetForm();
-                    Swal.fire(
+            await api({
+                method: 'POST',
+                url: "/budget",
+                data: this.form
+            }).then(res => {
+                console.log(res);
+                this.resetForm();
+                Swal.fire(
                     'Certinho!',
-                    'Orçamento solicitado com sucesso!',
+                    'Orçamento Solicitado com sucesso.',
                     'success'
-                    );       
-                })
-                .catch(err => {
-                    Swal.fire(
+                );
+            }).catch(err => {
+                console.log(err);
+                Swal.fire(
                     'Ops!',
-                    'Requisição inválida! Por favor preencha todos os campos obrigatórios.',
+                    'Requisição inválida!',
                     'error'
-                    );
-                });
+                );
+            });
+            // await api.post('/budget', this.form)
+            //     .then(res => {
+            //         this.resetForm();
+            //         Swal.fire(
+            //         'Certinho!',
+            //         'Orçamento solicitado com sucesso!',
+            //         'success'
+            //         );       
+            //     })
+            //     .catch(err => {
+            //         Swal.fire(
+            //         'Ops!',
+            //         'Requisição inválida! Por favor preencha todos os campos obrigatórios.',
+            //         'error'
+            //         );
+            //     });
         },
         resetForm(){
             const closeModal = document.getElementById('close-modal');
