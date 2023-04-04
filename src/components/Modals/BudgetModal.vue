@@ -7,7 +7,10 @@ export default{
         return {
             categories: ["Acessórios", "Automação", "Computadores", "Imagem", "Infraestrutura", "Print Solutions"],
             form: {
-                destination: 'Ederson Rodrigues <ederson.rodrigues777@gmail.com>',
+                destination: {
+                    name: "Ederson Rodrigues",
+                    email: "ederson.rodrigues777@gmail.com"
+                },
                 name: '',
                 email: '',
                 product: '',
@@ -22,7 +25,7 @@ export default{
             }
             return false;
         },
-        async submit(event: any) {
+        async submit() {
             await api({
                 method: 'POST',
                 url: "/budget",
